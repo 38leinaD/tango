@@ -21,8 +21,7 @@ void tango_release(tango_connection_t *connection);
 void tango_create_root_file_info(tango_connection_t *connection, tango_file_info_t *root_file_info);
 int tango_list_directory(tango_connection_t *connection, tango_file_info_t *directory, tango_file_info_t file_info_arr[], unsigned int file_info_arr_size);
 
-// tango_open_file
-//int tango_read_file(tango_connection_t *connection, tango_file_info_t *file_info, unsigned int offset, unsigned int bytes, unsigned char *buffer);
+int tango_read_file(tango_connection_t *connection, tango_file_info_t *file_info, unsigned int offset, unsigned int bytes, unsigned char *buffer);
 // tango_close_file
 
 // tango Error-Handling

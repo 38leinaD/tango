@@ -172,7 +172,7 @@ int _tango_SESSION_SETUP(tango_connection_t *connection) {
 	}
 	
 	if (_tango_smb_getParametersSize(smb) != 6) {
-		_tango_set_error(connection, kTangoErrorInvalidResponseMessage, "Invalid response");
+		_tango_set_error(connection, kTangoErrorInvalidResponseMessage, "Unable to login");
 		error("_tango_SESSION_SETUP(): Parameters-block length %d (!= 6).\n", (int)_tango_smb_getParametersSize(smb));
 		goto bailout;
 	}

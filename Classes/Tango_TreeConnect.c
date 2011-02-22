@@ -92,7 +92,7 @@ int _tango_TREE_CONNECT(tango_connection_t *connection) {
 	}
 	
 	if (_tango_smb_getParametersSize(smb) != 6) {
-		_tango_set_error(connection, kTangoErrorInvalidResponseMessage, "Invalid response");
+		_tango_set_error(connection, kTangoErrorInvalidResponseMessage, "Unable to connect to share");
 		error("_tango_TREE_CONNECT_ANDX(): Parameters-block length %d (!= 6).\n", (int)_tango_smb_getParametersSize(smb));
 		goto bailout;
 	}

@@ -266,13 +266,13 @@ int _tango_TRANS2_FIND_FIRST2(tango_connection_t *connection, const char *search
 	}
 	
 	if (_tango_smb_getParametersSize(smb) == 0) {
-		_tango_set_error(connection, kTangoErrorInvalidResponseMessage, "Invalid response");
+		_tango_set_error(connection, kTangoErrorInvalidResponseMessage, "Operation failed");
 		error("_tango_TRANS2_FIND_FIRST2(): Parameters-block length ==0.\n");
 		goto bailout;
 	}
 	
 	if (_tango_smb_getDataSize(smb) == 0) {
-		_tango_set_error(connection, kTangoErrorInvalidResponseMessage, "Invalid response");
+		_tango_set_error(connection, kTangoErrorInvalidResponseMessage, "Operation failed");
 		error("_tango_TRANS2_FIND_FIRST2(): Data-block length ==0.\n");
 		goto bailout;
 	}

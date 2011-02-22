@@ -73,7 +73,7 @@ int _tango_ECHO(tango_connection_t *connection, unsigned short number_of_echoes,
 		}
 		
 		if (_tango_smb_getParametersSize(smb) != 2) {
-			_tango_set_error(connection, kTangoErrorInvalidResponseMessage, "Invalid response");
+			_tango_set_error(connection, kTangoErrorInvalidResponseMessage, "Operation failed");
 			error("_tango_ECHO(): Parameters-block length %d (!= 2).\n", (int)_tango_smb_getParametersSize(smb));
 			goto bailout;
 		}

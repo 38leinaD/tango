@@ -30,6 +30,7 @@ typedef struct _tango_smb_t {
 #define SMB_COM_TREE_CONNECT_ANDX		(0x75)
 #define SMB_COM_TRANSACTION2			(0x32)
 #define SMB_COM_TRANSACTION2_SECONDARY	(0x33)
+#define SMB_COM_NT_CREATE_ANDX			(0xA2)
 #define SMB_COM_OPEN_ANDX				(0x2D)
 #define SMB_COM_READ_ANDX				(0x2E)
 #define SMB_COM_ECHO					(0x2B)
@@ -98,6 +99,25 @@ typedef struct _tango_smb_t {
 #pragma mark Search Information Levels
 
 #define	SMB_INFO_STANDARD			0x01
+
+#pragma mark File Access
+
+#define FILE_NO_SHARE				0x00000000
+#define FILE_SHARE_READ				0x00000001
+#define FILE_SHARE_WRITE			0x00000002
+#define FILE_SHARE_DELETE			0x00000004
+
+#define FILE_SUPERSEDE				0x00000000
+#define FILE_OPEN					0x00000001
+#define FILE_CREATE					0x00000002
+#define FILE_OPEN_IF				0x00000003
+#define FILE_OVERWRITE				0x00000004
+#define FILE_OVERWRITE_IF			0x00000005
+
+typedef struct { 
+	unsigned int LowPart;
+	int HighPart;
+} LARGE_INTEGER;
 
 #pragma mark --- Tango ---
 
@@ -172,6 +192,8 @@ typedef struct _tango_file_info {
 
 	unsigned char is_folder;
 	unsigned int file_size;
+	
+	unsigned short fid;
 } tango_file_info_t;
 
 #endif

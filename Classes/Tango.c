@@ -18,6 +18,7 @@
 #include "Tango_LogOff.h"
 #include "Tango_Echo.h"
 #include "tango_Read.h"
+#include "Tango_NT_Create.h"
 
 #pragma mark -
 #pragma mark - Public API -
@@ -180,7 +181,17 @@ int tango_list_directory(tango_connection_t *connection, tango_file_info_t *dire
 }
  
 int tango_read_file(tango_connection_t *connection, tango_file_info_t *file_info, unsigned int offset, unsigned int bytes, unsigned char *buffer) {
-	return _tango_READ(connection, file_info, offset, bytes, buffer);
+	int operation_result = -1;
+	
+	int result;
+	if ((operation_result = _tango_NT_Create(connection, file_info, FILE_SHARE_READ, FILE_OPEN)) == -1) {
+		goto bailout;
+	}
+
+	return _tango_READ(connection, offset, bytes, file_info, buffer);
+	
+bailout:
+	return operation_result;
 }
 
 #pragma mark Error-Handling

@@ -12,6 +12,6 @@
 
 #include "TangoBase.h"
 
-int _tango_READ(tango_connection_t *connection, tango_file_info_t *file_info, unsigned int offset, unsigned int bytes, unsigned char *buffer);
+int _tango_READ(tango_connection_t *connection, unsigned int offset, unsigned int bytes, tango_file_info_t *file_info, unsigned char *buffer);
 
 #endif

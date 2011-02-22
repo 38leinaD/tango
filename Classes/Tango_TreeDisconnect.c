@@ -52,13 +52,13 @@ int _tango_TREE_DISCONNECT(tango_connection_t *connection) {
 	}
 	
 	if (_tango_smb_getParametersSize(smb) != 0) {
-		_tango_set_error(connection, kTangoErrorInvalidResponseMessage, "Invalid response");
+		_tango_set_error(connection, kTangoErrorInvalidResponseMessage, "Operation failed");
 		error("_tango_TREE_DISCONNECT_ANDX(): Parameters-block length %d (!= 0).\n", (int)_tango_smb_getParametersSize(smb));
 		goto bailout;
 	}
 	
 	if (_tango_smb_getDataSize(smb) != 0) {
-		_tango_set_error(connection, kTangoErrorInvalidResponseMessage, "Invalid response");
+		_tango_set_error(connection, kTangoErrorInvalidResponseMessage, "Operation failed");
 		error("_tango_TREE_DISCONNECT_ANDX(): Data-block length %d (!= 0).\n", (int)_tango_smb_getDataSize(smb));
 		goto bailout;
 	}

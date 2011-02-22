@@ -15,9 +15,11 @@
  *
  * @return -1 on error; number of read bytes on success
  */
-int _tango_READ(tango_connection_t *connection, tango_file_info_t *file_info, unsigned int offset, unsigned int bytes, unsigned char *buffer) {
+int _tango_READ(tango_connection_t *connection, unsigned int offset, unsigned int bytes, tango_file_info_t *file_info, unsigned char *buffer) {
 	
 	unsigned int operation_successful = -1;
+	
+	error("_tango_READ(): Read FID(%04x) OFFSET(%04x) BYTES(%04x)\n", file_info->fid, offset, bytes);
 	
 	/**
 	 * 1. Define Request
@@ -25,7 +27,7 @@ int _tango_READ(tango_connection_t *connection, tango_file_info_t *file_info, un
 	
 	tango_smb_t *smb = _tango_create_smb();
 	
-	_tango_populate_request_header(connection, smb, SMB_COM_ECHO);
+	_tango_populate_request_header(connection, smb, SMB_COM_READ_ANDX);
 	
 	// Parameters
 	unsigned char *parameters_ptr = _tango_smb_getParametersPointer(smb);
@@ -39,14 +41,39 @@ int _tango_READ(tango_connection_t *connection, tango_file_info_t *file_info, un
 	*((unsigned short *)(parameters_ptr + parameters_offset)) = 0x00;
 	parameters_offset+=2; // 1 byte reserved
 	
+	// Fid
+	*((unsigned short *)(parameters_ptr + parameters_offset)) = file_info->fid;
+	parameters_offset+=2;
 	
+	// Offset
+	*((unsigned int *)(parameters_ptr + parameters_offset)) = offset;
+	parameters_offset+=4;
+	
+	// MaxCount
+	*((unsigned short *)(parameters_ptr + parameters_offset)) = bytes;
+	parameters_offset+=2;
+	
+	// MinCount
+	*((unsigned short *)(parameters_ptr + parameters_offset)) = bytes;
+	parameters_offset+=2;
+	
+	// MaxCountHigh
+	*((unsigned int *)(parameters_ptr + parameters_offset)) = 0x00;
+	parameters_offset+=4;
+	
+	// Remaining
+	*((unsigned short *)(parameters_ptr + parameters_offset)) = bytes;
+	parameters_offset+=2;
+	
+	// OffsetHigh
+	*((unsigned int *)(parameters_ptr + parameters_offset)) = 0x00;
+	parameters_offset+=4;
 	
 	_tango_smb_setParametersSize(smb, parameters_offset);
 	
 	// Data
 	unsigned char *data_ptr = _tango_smb_getDataPointer(smb);
 	unsigned int data_offset = 0;
-
 	
 	_tango_smb_setDataSize(smb, data_offset);
 	
@@ -67,6 +94,13 @@ int _tango_READ(tango_connection_t *connection, tango_file_info_t *file_info, un
 		
 	debug("_tango_READ(): Received response\n");
 		
+#ifdef VERY_VERBOSE
+	printf("_tango_READ(): Received response:\n");
+	printf("-----------------------------------------------------------------------------\n");
+	_tango_print_message(smb);
+	printf("-----------------------------------------------------------------------------\n");
+#endif
+	
 	/**
 	 * 3. Evaluate Response
 	 */
@@ -75,9 +109,9 @@ int _tango_READ(tango_connection_t *connection, tango_file_info_t *file_info, un
 		goto bailout;
 	}
 		
-	if (_tango_smb_getParametersSize(smb) != 2) {
-		_tango_set_error(connection, kTangoErrorInvalidResponseMessage, "Invalid response");
-		error("_tango_READ(): Parameters-block length %d (!= 2).\n", (int)_tango_smb_getParametersSize(smb));
+	if (_tango_smb_getParametersSize(smb) != 24) {
+		_tango_set_error(connection, kTangoErrorInvalidResponseMessage, "Read failed");
+		error("_tango_READ(): Parameters-block length %d (!= 24).\n", (int)_tango_smb_getParametersSize(smb));
 		goto bailout;
 	}
 		
