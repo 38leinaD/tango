@@ -27,7 +27,7 @@
 #pragma mark Defines
 
 #define NBT_HEADER_LENGTH	(4)
-#define MAX_SMB_SIZE		(1024*16) // 16 Kilobyte
+#define MAX_SMB_SIZE		(0xFFFF) // 16 Kilobyte
 
 #define SMB_HEADER_PROTOCOL_INT			(0)
 #define SMB_HEADER_COMMAND_BYTE			(4)

@@ -67,6 +67,26 @@
 	return fileArray;
 }
 
+- (NSData *)readFile:(tangoFileInfo *)fileInfo {
+    unsigned char *data = malloc(fileInfo.fileInfo.file_size);
+    
+    if (data == NULL) {
+        return nil;
+    }
+    
+	int bytes_read = 0;
+    
+    tango_file_info_t fi = fileInfo.fileInfo;
+	if ((bytes_read = tango_read_file(self.connection, &fi, 0, fileInfo.fileInfo.file_size, data)) < 0) {
+        return nil;
+	}
+                                                                                                           
+    NSData *fileData = [NSData dataWithBytes:data length:bytes_read];
+    free(data);
+    
+    return fileData;
+}
+
 - (BOOL)error {
 	return tango_error(_connection) > 0;
 }

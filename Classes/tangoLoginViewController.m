@@ -83,6 +83,7 @@
 								cancelButtonTitle:nil
 								otherButtonTitles:@"OK", nil];
 		[myAlert show]; 
+        [myAlert autorelease];
 		return;
 	}
 	
@@ -94,6 +95,7 @@
 								cancelButtonTitle:nil
 								otherButtonTitles:@"OK", nil];
 		[myAlert show]; 
+        [myAlert autorelease];
 		return;
 	}
 	
@@ -112,12 +114,13 @@
 								cancelButtonTitle:nil
 								otherButtonTitles:@"OK", nil];
 		[myAlert show]; 
+        [myAlert autorelease];
 		[activityIndicator stopAnimating];
 		return;
 	}
 	
 	// Connected
-	tangoFileInfo *rootFileInfo = [[tangoFileInfo rootFileInfoForConnection:connection] autorelease];
+	tangoFileInfo *rootFileInfo = [tangoFileInfo rootFileInfoForConnection:connection];
 	tangoFSFolderViewController *folderController = [[tangoFSFolderViewController alloc] initWithConnection:connection andRootFileInfo:rootFileInfo];
 	[connection release];
 	

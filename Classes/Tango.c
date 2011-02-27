@@ -19,6 +19,7 @@
 #include "Tango_Echo.h"
 #include "tango_Read.h"
 #include "Tango_NT_Create.h"
+#include "Tango_Close.h"
 
 #pragma mark -
 #pragma mark - Public API -
@@ -188,8 +189,12 @@ int tango_read_file(tango_connection_t *connection, tango_file_info_t *file_info
 		goto bailout;
 	}
 
-	return _tango_READ(connection, offset, bytes, file_info, buffer);
-	
+	int read_bytes = _tango_READ(connection, offset, bytes, file_info, buffer);
+    
+    operation_result = read_bytes;
+
+    int close_result = _tango_Close(connection, file_info);
+    
 bailout:
 	return operation_result;
 }

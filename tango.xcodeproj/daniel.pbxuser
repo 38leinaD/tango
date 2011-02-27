@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* tangoTestAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1036, 459}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 381}";
+		};
+	};
+	1D3623250D0F684500981E51 /* tangoTestAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1265, 924}}";
+			sepNavSelRange = "{1604, 0}";
+			sepNavVisRange = "{235, 1505}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* tango */ = {
+		activeExec = 0;
+		executables = (
+			658C1413129EF63A00BB2C1B /* tango */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 658C1413129EF63A00BB2C1B /* tango */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* tango */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* tango */,
+		);
+		codeSenseManager = 658C141B129EF64600BB2C1B /* Code sense */;
+		executables = (
+			658C1413129EF63A00BB2C1B /* tango */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					908,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 314369804;
+			PBXWorkspaceStateSaveDate = 314369804;
+		};
+		perUserProjectItems = {
+			658C143C129F020900BB2C1B /* PBXTextBookmark */ = 658C143C129F020900BB2C1B /* PBXTextBookmark */;
+			658C143D129F020900BB2C1B /* PBXTextBookmark */ = 658C143D129F020900BB2C1B /* PBXTextBookmark */;
+			658C143E129F020900BB2C1B /* PBXBookmark */ = 658C143E129F020900BB2C1B /* PBXBookmark */;
+			658C143F129F020900BB2C1B /* PBXTextBookmark */ = 658C143F129F020900BB2C1B /* PBXTextBookmark */;
+			658C1442129F020900BB2C1B /* PBXTextBookmark */ = 658C1442129F020900BB2C1B /* PBXTextBookmark */;
+			658C1444129F020900BB2C1B /* PBXTextBookmark */ = 658C1444129F020900BB2C1B /* PBXTextBookmark */;
+			658C1446129F020900BB2C1B /* PBXTextBookmark */ = 658C1446129F020900BB2C1B /* PBXTextBookmark */;
+			658C1447129F020900BB2C1B /* PBXTextBookmark */ = 658C1447129F020900BB2C1B /* PBXTextBookmark */;
+			658C1448129F020900BB2C1B /* PBXTextBookmark */ = 658C1448129F020900BB2C1B /* PBXTextBookmark */;
+			658C1449129F020900BB2C1B /* PBXTextBookmark */ = 658C1449129F020900BB2C1B /* PBXTextBookmark */;
+			658C1456129F048200BB2C1B /* PBXTextBookmark */ = 658C1456129F048200BB2C1B /* PBXTextBookmark */;
+			658C14A3129F0E3F00BB2C1B /* PBXTextBookmark */ = 658C14A3129F0E3F00BB2C1B /* PBXTextBookmark */;
+			658C14A6129F0E3F00BB2C1B /* PBXTextBookmark */ = 658C14A6129F0E3F00BB2C1B /* PBXTextBookmark */;
+			658C17FD12ABE87500BB2C1B /* PBXTextBookmark */ = 658C17FD12ABE87500BB2C1B /* PBXTextBookmark */;
+			658C17FE12ABE87500BB2C1B /* PBXTextBookmark */ = 658C17FE12ABE87500BB2C1B /* PBXTextBookmark */;
+			658C17FF12ABE87500BB2C1B /* PBXTextBookmark */ = 658C17FF12ABE87500BB2C1B /* PBXTextBookmark */;
+			658C180012ABE87500BB2C1B /* PBXTextBookmark */ = 658C180012ABE87500BB2C1B /* PBXTextBookmark */;
+			65FA4CE612BCE7A000BD545C /* PBXTextBookmark */ = 65FA4CE612BCE7A000BD545C /* PBXTextBookmark */;
+			65FA4CE712BCE7A000BD545C /* PBXTextBookmark */ = 65FA4CE712BCE7A000BD545C /* PBXTextBookmark */;
+			65FA4CE812BCE7A000BD545C /* PBXTextBookmark */ = 65FA4CE812BCE7A000BD545C /* PBXTextBookmark */;
+			65FA4CE912BCE7A000BD545C /* PBXBookmark */ = 65FA4CE912BCE7A000BD545C /* PBXBookmark */;
+			65FA4CEA12BCE7A000BD545C /* PBXTextBookmark */ = 65FA4CEA12BCE7A000BD545C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 658C141A129EF64600BB2C1B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	65010874129084560070372A /* TangoBase.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1265, 2408}}";
+			sepNavSelRange = "{438, 0}";
+			sepNavVisRange = "{166, 965}";
+		};
+	};
+	65010875129084560070372A /* TangoBase.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1086, 7294}}";
+			sepNavSelRange = "{6980, 137}";
+			sepNavVisRange = "{6334, 1433}";
+		};
+	};
+	6501087C129086610070372A /* Tango_SessionSetup.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 3164}}";
+			sepNavSelRange = "{6189, 0}";
+			sepNavVisRange = "{5434, 1464}";
+		};
+	};
+	6501087F129086730070372A /* Tango_TreeConnect.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {866, 1582}}";
+			sepNavSelRange = "{2493, 0}";
+			sepNavVisRange = "{1788, 1312}";
+		};
+	};
+	65010882129086910070372A /* Tango_Find2First.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {754, 6244}}";
+			sepNavSelRange = "{8807, 0}";
+			sepNavVisRange = "{8345, 1405}";
+		};
+	};
+	65010D94129A9E5A0070372A /* Tango_TreeDisconnect.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {887, 1106}}";
+			sepNavSelRange = "{1596, 0}";
+			sepNavVisRange = "{581, 1480}";
+		};
+	};
+	65010E20129AA18B0070372A /* Tango_LogOff.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {789, 1274}}";
+			sepNavSelRange = "{1924, 0}";
+			sepNavVisRange = "{996, 1338}";
+		};
+	};
+	65010E30129AA3960070372A /* Tango_Echo.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 1484}}";
+			sepNavSelRange = "{1880, 0}";
+			sepNavVisRange = "{1275, 1282}";
+		};
+	};
+	65010ED8129ABD760070372A /* Tango_Read.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1006, 572}}";
+			sepNavSelRange = "{361, 0}";
+			sepNavVisRange = "{0, 394}";
+		};
+	};
+	65010ED9129ABD760070372A /* Tango_Read.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1086, 1890}}";
+			sepNavSelRange = "{1221, 0}";
+			sepNavVisRange = "{1224, 1367}";
+		};
+	};
+	65010F27129ACA9B0070372A /* tangoLoginViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1036, 459}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 496}";
+		};
+	};
+	65010F83129ADD1A0070372A /* tangoConnection.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1086, 1148}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{142, 1183}";
+		};
+	};
+	65010F98129AE1250070372A /* tangoFileInfo.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1036, 574}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 722}";
+		};
+	};
+	6543BF7911C3AC61008C4668 /* Tango.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1097, 595}}";
+			sepNavSelRange = "{765, 147}";
+			sepNavVisRange = "{0, 1078}";
+		};
+	};
+	6543BF7A11C3AC61008C4668 /* Tango.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1104, 3122}}";
+			sepNavSelRange = "{6004, 0}";
+			sepNavVisRange = "{5394, 1480}";
+		};
+	};
+	6543BF7C11C3AD04008C4668 /* TangoTypes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {754, 2842}}";
+			sepNavSelRange = "{655, 0}";
+			sepNavVisRange = "{338, 854}";
+		};
+	};
+	658C1413129EF63A00BB2C1B /* tango */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = tango;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	658C141A129EF64600BB2C1B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	658C141B129EF64600BB2C1B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	658C141D129EF72D00BB2C1B /* Tango_NT_Create.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 572}}";
+			sepNavSelRange = "{340, 0}";
+			sepNavVisRange = "{0, 410}";
+		};
+	};
+	658C141E129EF72D00BB2C1B /* Tango_NT_Create.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1265, 3080}}";
+			sepNavSelRange = "{4871, 0}";
+			sepNavVisRange = "{3238, 1205}";
+		};
+	};
+	658C143C129F020900BB2C1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* tangoTestAppDelegate.h */;
+		name = "tangoTestAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 381;
+		vrLoc = 0;
+	};
+	658C143D129F020900BB2C1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65010F27129ACA9B0070372A /* tangoLoginViewController.h */;
+		name = "tangoLoginViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 496;
+		vrLoc = 0;
+	};
+	658C143E129F020900BB2C1B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 65010FE9129AE9EB0070372A /* folder.png */;
+	};
+	658C143F129F020900BB2C1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65010F98129AE1250070372A /* tangoFileInfo.m */;
+		name = "tangoFileInfo.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 722;
+		vrLoc = 0;
+	};
+	658C1442129F020900BB2C1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6543BF7911C3AC61008C4668 /* Tango.h */;
+		name = "Tango.h: 24";
+		rLen = 147;
+		rLoc = 765;
+		rType = 0;
+		vrLen = 1078;
+		vrLoc = 0;
+	};
+	658C1444129F020900BB2C1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65010E30129AA3960070372A /* Tango_Echo.c */;
+		name = "Tango_Echo.c: 76";
+		rLen = 0;
+		rLoc = 1880;
+		rType = 0;
+		vrLen = 1282;
+		vrLoc = 1275;
+	};
+	658C1446129F020900BB2C1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65010D94129A9E5A0070372A /* Tango_TreeDisconnect.c */;
+		name = "Tango_TreeDisconnect.c: 61";
+		rLen = 0;
+		rLoc = 1596;
+		rType = 0;
+		vrLen = 1480;
+		vrLoc = 581;
+	};
+	658C1447129F020900BB2C1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65010882129086910070372A /* Tango_Find2First.c */;
+		name = "Tango_Find2First.c: 275";
+		rLen = 0;
+		rLoc = 8807;
+		rType = 0;
+		vrLen = 1405;
+		vrLoc = 8345;
+	};
+	658C1448129F020900BB2C1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6501087C129086610070372A /* Tango_SessionSetup.c */;
+		name = "Tango_SessionSetup.c: 175";
+		rLen = 0;
+		rLoc = 6189;
+		rType = 0;
+		vrLen = 1464;
+		vrLoc = 5434;
+	};
+	658C1449129F020900BB2C1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6501087F129086730070372A /* Tango_TreeConnect.c */;
+		name = "Tango_TreeConnect.c: 95";
+		rLen = 0;
+		rLoc = 2493;
+		rType = 0;
+		vrLen = 1312;
+		vrLoc = 1788;
+	};
+	658C1456129F048200BB2C1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65010E20129AA18B0070372A /* Tango_LogOff.c */;
+		name = "Tango_LogOff.c: 73";
+		rLen = 0;
+		rLoc = 1924;
+		rType = 0;
+		vrLen = 1338;
+		vrLoc = 996;
+	};
+	658C14A3129F0E3F00BB2C1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 658C141D129EF72D00BB2C1B /* Tango_NT_Create.h */;
+		name = "Tango_NT_Create.h: 15";
+		rLen = 0;
+		rLoc = 340;
+		rType = 0;
+		vrLen = 410;
+		vrLoc = 0;
+	};
+	658C14A6129F0E3F00BB2C1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65010ED8129ABD760070372A /* Tango_Read.h */;
+		name = "Tango_Read.h: 15";
+		rLen = 0;
+		rLoc = 361;
+		rType = 0;
+		vrLen = 394;
+		vrLoc = 0;
+	};
+	658C17FD12ABE87500BB2C1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6543BF7C11C3AD04008C4668 /* TangoTypes.h */;
+		name = "TangoTypes.h: 31";
+		rLen = 0;
+		rLoc = 655;
+		rType = 0;
+		vrLen = 854;
+		vrLoc = 338;
+	};
+	658C17FE12ABE87500BB2C1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* tangoTestAppDelegate.m */;
+		name = "tangoTestAppDelegate.m: 52";
+		rLen = 0;
+		rLoc = 1604;
+		rType = 0;
+		vrLen = 1505;
+		vrLoc = 235;
+	};
+	658C17FF12ABE87500BB2C1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65010874129084560070372A /* TangoBase.h */;
+		name = "TangoBase.h: 25";
+		rLen = 0;
+		rLoc = 438;
+		rType = 0;
+		vrLen = 965;
+		vrLoc = 166;
+	};
+	658C180012ABE87500BB2C1B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 658C141E129EF72D00BB2C1B /* Tango_NT_Create.c */;
+		name = "Tango_NT_Create.c: 174";
+		rLen = 0;
+		rLoc = 4871;
+		rType = 0;
+		vrLen = 1205;
+		vrLoc = 3238;
+	};
+	65FA4CE612BCE7A000BD545C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65010ED9129ABD760070372A /* Tango_Read.c */;
+		name = "Tango_Read.c: 46";
+		rLen = 0;
+		rLoc = 1221;
+		rType = 0;
+		vrLen = 1367;
+		vrLoc = 1224;
+	};
+	65FA4CE712BCE7A000BD545C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65010F83129ADD1A0070372A /* tangoConnection.m */;
+		name = "tangoConnection.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1183;
+		vrLoc = 142;
+	};
+	65FA4CE812BCE7A000BD545C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6543BF7A11C3AC61008C4668 /* Tango.c */;
+		name = "Tango.c: 188";
+		rLen = 0;
+		rLoc = 6004;
+		rType = 0;
+		vrLen = 1480;
+		vrLoc = 5394;
+	};
+	65FA4CE912BCE7A000BD545C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 65010875129084560070372A /* TangoBase.c */;
+	};
+	65FA4CEA12BCE7A000BD545C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65010875129084560070372A /* TangoBase.c */;
+		name = "TangoBase.c: 297";
+		rLen = 137;
+		rLoc = 6980;
+		rType = 0;
+		vrLen = 1433;
+		vrLoc = 6334;
+	};
+}

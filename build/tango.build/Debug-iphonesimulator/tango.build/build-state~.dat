@@ -1,0 +1,972 @@
+Ttango
+v7
+r0
+t312410386.946962
+cCheck dependencies
+cProcessInfoPlistFile /Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app/Info.plist tango-Info.plist
+cCpResource build/Debug-iphonesimulator/tango.app/LICENSE.txt LICENSE.txt
+cCompileXIB /Users/daniel/Dev/cocoa/dump/tango/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/tango.app/file.png file.png
+cCpResource build/Debug-iphonesimulator/tango.app/folder.png folder.png
+cProcessPCH /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-fxvtwnouiubimqgrlmoovkitgipk/tango_Prefix.pch.pth tango_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-aniksazigdrsmdfuobpaelgiaekr/tango_Prefix.pch.pth tango_Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/main.o /Users/daniel/Dev/cocoa/dump/tango/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoTestAppDelegate.o /Users/daniel/Dev/cocoa/dump/tango/Classes/tangoTestAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango.o /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/TangoSecurity.o /Users/daniel/Dev/cocoa/dump/tango/Classes/TangoSecurity.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/TangoBase.o /Users/daniel/Dev/cocoa/dump/tango/Classes/TangoBase.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_NegotiateProtocol.o /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_NegotiateProtocol.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_SessionSetup.o /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_SessionSetup.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_TreeConnect.o /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_TreeConnect.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_Find2First.o /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_TreeDisconnect.o /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_TreeDisconnect.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_LogOff.o /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_LogOff.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_Echo.o /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Echo.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_Read.o /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Read.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoLoginViewController.o /Users/daniel/Dev/cocoa/dump/tango/Classes/tangoLoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoFSFolderViewController.o /Users/daniel/Dev/cocoa/dump/tango/Classes/tangoFSFolderViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoConnection.o /Users/daniel/Dev/cocoa/dump/tango/Classes/tangoConnection.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoFileInfo.o /Users/daniel/Dev/cocoa/dump/tango/Classes/tangoFileInfo.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_NT_Create.o /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_NT_Create.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CAC155A0000000000000110
+t1286346074
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004CAC00E40000000000000AB3
+t1286340836
+s2739
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CAC0218000000000029B310
+t1286341144
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CAC0237000000000029D5D0
+t1286341175
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CAC02230000000000001466
+t1286341155
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CAC13700000000000000AA1
+t1286345584
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CAC141C000000000074B110
+t1286345756
+s7647504
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/CommonCrypto/CommonCryptor.h
+c000000004A11E8210000000000005AF2
+t1242687521
+s23282
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/arpa/inet.h
+c000000004CABF43D0000000000001533
+t1286337597
+s5427
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/assert.h
+c000000004CABF48E0000000000000DCB
+t1286337678
+s3531
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/errno.h
+c000000004CABF48E00000000000003EB
+t1286337678
+s1003
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/netinet/in.h
+c000000004CABFAB60000000000005462
+t1286339254
+s21602
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdarg.h
+c000000004CABF48E00000000000000EA
+t1286337678
+s234
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdio.h
+c000000004CABF48F00000000000040AC
+t1286337679
+s16556
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdlib.h
+c000000004CABF48F0000000000002DF5
+t1286337679
+s11765
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/string.h
+c000000004CABF48F0000000000001731
+t1286337679
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sys/poll.h
+c000000004CABFABF000000000000123C
+t1286339263
+s4668
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sys/socket.h
+c000000004CABFAC20000000000005A69
+t1286339266
+s23145
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sys/types.h
+c000000004CABFAC40000000000002905
+t1286339268
+s10501
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/time.h
+c000000004CABF48F000000000000178E
+t1286337679
+s6030
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango.c
+c000000004CEEC88D0000000000001B8B
+t1290717325
+s7051
+i"Tango.h"
+i"TangoBase.h"
+i"Tango_NegotiateProtocol.h"
+i"Tango_SessionSetup.h"
+i"Tango_TreeConnect.h"
+i"Tango_Find2First.h"
+i"Tango_TreeDisconnect.h"
+i"Tango_LogOff.h"
+i"Tango_Echo.h"
+i"tango_Read.h"
+i"Tango_NT_Create.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango.h
+c000000004CEEC76D0000000000000436
+t1290717037
+s1078
+i"TangoTypes.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/TangoBase.c
+c000000004CEACF29000000000000331C
+t1290456873
+s13084
+i"TangoBase.h"
+i<stdio.h>
+i<string.h>
+i<errno.h>
+i<stdarg.h>
+i<stdlib.h>
+i<assert.h>
+i<time.h>
+i<sys/poll.h>
+i<sys/types.h>
+i<sys/socket.h>
+i<netinet/in.h>
+i<arpa/inet.h>
+i"TangoTypes.h"
+i"TangoSecurity.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/TangoBase.h
+c000000004CEA859B0000000000001083
+t1290438043
+s4227
+i<stdio.h>
+i<string.h>
+i<errno.h>
+i<stdarg.h>
+i<stdlib.h>
+i<assert.h>
+i<time.h>
+i<math.h>
+i<CoreFoundation/CoreFoundation.h>
+i"TangoTypes.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/TangoSecurity.c
+c000000004CEA85960000000000001764
+t1290438038
+s5988
+i"TangoSecurity.h"
+i<stdio.h>
+i<string.h>
+i<errno.h>
+i<stdarg.h>
+i<stdlib.h>
+i<assert.h>
+i<math.h>
+i<CommonCrypto/CommonCryptor.h>
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/TangoSecurity.h
+c000000004CEA8592000000000000030E
+t1290438034
+s782
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/TangoTypes.h
+c000000004CEEC3B600000000000014BB
+t1290716086
+s5307
+i<netinet/in.h>
+i<arpa/inet.h>
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Echo.c
+c000000004CEEC9180000000000000AE0
+t1290717464
+s2784
+i"Tango_Echo.h"
+i"TangoBase.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Echo.h
+c000000004CEA8605000000000000015D
+t1290438149
+s349
+i"TangoBase.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c
+c000000004CEEC9380000000000003529
+t1290717496
+s13609
+i"Tango_TreeConnect.h"
+i"TangoBase.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.h
+c000000004CEA854900000000000001B1
+t1290437961
+s433
+i"TangoTypes.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_LogOff.c
+c000000004CEEC922000000000000097E
+t1290717474
+s2430
+i"Tango_LogOff.h"
+i"TangoBase.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_LogOff.h
+c000000004CEA85670000000000000135
+t1290437991
+s309
+i"TangoTypes.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_NT_Create.c
+c000000004CEEC9800000000000001066
+t1290717568
+s4198
+i"Tango_NT_Create.h"
+i"TangoBase.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_NT_Create.h
+c000000004CEEC18D0000000000000185
+t1290715533
+s389
+i"TangoBase.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_NegotiateProtocol.c
+c000000004CEA85290000000000001DE0
+t1290437929
+s7648
+i"Tango_NegotiateProtocol.h"
+i"TangoBase.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_NegotiateProtocol.h
+c000000004CEA85190000000000000164
+t1290437913
+s356
+i"TangoTypes.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Read.c
+c000000004CEEC91200000000000009CF
+t1290717458
+s2511
+i"Tango_Read.h"
+i"TangoBase.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Read.h
+c000000004CEA88E8000000000000018A
+t1290438888
+s394
+i"TangoBase.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_SessionSetup.c
+c000000004CEEC94D0000000000001CA7
+t1290717517
+s7335
+i"Tango_SessionSetup.h"
+i"TangoBase.h"
+i"TangoSecurity.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_SessionSetup.h
+c000000004CEA85300000000000000150
+t1290437936
+s336
+i"TangoTypes.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_TreeConnect.c
+c000000004CEEC95E0000000000000C1C
+t1290717534
+s3100
+i"Tango_TreeConnect.h"
+i"TangoBase.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_TreeConnect.h
+c000000004CEA853E000000000000014C
+t1290437950
+s332
+i"TangoTypes.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_TreeDisconnect.c
+c000000004CEEC92C0000000000000852
+t1290717484
+s2130
+i"Tango_TreeDisconnect.h"
+i"TangoBase.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_TreeDisconnect.h
+c000000004CEA855B0000000000000158
+t1290437979
+s344
+i"TangoTypes.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoConnection.h
+c000000004CEADA930000000000000326
+t1290459795
+s806
+i<Foundation/Foundation.h>
+i"Tango.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoConnection.m
+c000000004CEADA9C00000000000006AA
+t1290459804
+s1706
+i"tangoConnection.h"
+i"tangoFileInfo.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoFSFolderViewController.h
+c000000004CEADA8B0000000000000201
+t1290459787
+s513
+i<UIKit/UIKit.h>
+i"tangoConnection.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoFSFolderViewController.m
+c000000004CEADA83000000000000150E
+t1290459779
+s5390
+i"tangoFSFolderViewController.h"
+i"tangoFileInfo.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoFileInfo.h
+c000000004CEADAAE0000000000000225
+t1290459822
+s549
+i<Foundation/Foundation.h>
+i"Tango.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoFileInfo.m
+c000000004CEADAA40000000000000345
+t1290459812
+s837
+i"tangoFileInfo.h"
+i"tangoConnection.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoLoginViewController.h
+c000000004CEADA0900000000000001F0
+t1290459657
+s496
+i<UIKit/UIKit.h>
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoLoginViewController.m
+c000000004CEADABE0000000000000E15
+t1290459838
+s3605
+i"tangoLoginViewController.h"
+i"tangoFSFolderViewController.h"
+i"tangoFileInfo.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoTestAppDelegate.h
+c000000004CEADAC2000000000000017D
+t1290459842
+s381
+i<UIKit/UIKit.h>
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoTestAppDelegate.m
+c000000004CEEC6240000000000000759
+t1290716708
+s1881
+i"tangoTestAppDelegate.h"
+i"tangoLoginViewController.h"
+i"Tango.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/tango_Read.c
+c000000004CEA8ED100000000000009CF
+t1290440401
+s2511
+i"Tango_Read.h"
+i"TangoBase.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/Classes/tango_Read.h
+c000000004CEA88E8000000000000018A
+t1290438888
+s394
+i"TangoBase.h"
+
+N/Users/daniel/Dev/cocoa/dump/tango/LICENSE.txt
+c000000004CEA839F000000000000059B
+t1290437535
+s1435
+
+N/Users/daniel/Dev/cocoa/dump/tango/MainWindow.xib
+c000000004CEA9F76000000000000A064
+t1290444662
+s41060
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app
+t2
+s0
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app.dSYM
+t2
+s0
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app/Info.plist
+t1290717572
+s790
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app/LICENSE.txt
+t1290717573
+s1435
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app/MainWindow.nib
+t1290717579
+s3590
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app/PkgInfo
+t1290717572
+s8
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app/file.png
+t1290717573
+s2545
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app/folder.png
+t1290717573
+s9860
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app/tango
+t2
+s0
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango.o
+t1290717586
+s15956
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/TangoBase.o
+t1290717586
+s23524
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/TangoSecurity.o
+t1290717585
+s8988
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_Echo.o
+t1290717586
+s6520
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_Find2First.o
+t1290717586
+s17428
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_LogOff.o
+t1290717586
+s5964
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_NT_Create.o
+t2
+s0
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_NegotiateProtocol.o
+t1290717586
+s11008
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_Read.o
+t1290717586
+s6008
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_SessionSetup.o
+t1290717586
+s11136
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_TreeConnect.o
+t1290717586
+s7216
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_TreeDisconnect.o
+t1290717586
+s5844
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/main.o
+t1290717582
+s3080
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tango.LinkFileList
+c000000004CEEC98400000000000008CB
+t1290717572
+s2251
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoConnection.o
+t1290717586
+s14696
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoFSFolderViewController.o
+t1290717586
+s45404
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoFileInfo.o
+t1290717586
+s9076
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoLoginViewController.o
+t1290717586
+s47396
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoTestAppDelegate.o
+t1290717584
+s45156
+
+N/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tango_Read.o
+t2
+s0
+
+N/Users/daniel/Dev/cocoa/dump/tango/file.png
+c000000004CEAB24400000000000009F1
+t1290449476
+s2545
+
+N/Users/daniel/Dev/cocoa/dump/tango/folder.png
+c000000004CEAB21A0000000000002684
+t1290449434
+s9860
+
+N/Users/daniel/Dev/cocoa/dump/tango/main.m
+c000000004C1372DB000000000000016C
+t1276343003
+s364
+i<UIKit/UIKit.h>
+
+N/Users/daniel/Dev/cocoa/dump/tango/tango_Prefix.pch
+c000000004CE0581D00000000000000D4
+t1289771037
+s212
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-aniksazigdrsmdfuobpaelgiaekr/tango_Prefix.pch.pth
+t1290034924
+s56468
+
+N/var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-fxvtwnouiubimqgrlmoovkitgipk/tango_Prefix.pch.pth
+t1290034925
+s2783852
+
+Ntango-Info.plist
+c000000004C1FCC9600000000000004A0
+t1277152406
+s1184
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312410372#312410372#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango.o /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s312410382.230189
+e312410386.116879
+r1
+xCompileC
+xbuild/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango.o
+x/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango.c:148:2: warning: implicit declaration of function 'close' is invalid in C99 [-Wimplicit-function-declaration]
+o         close(connection->socket);
+o         ^
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango.c:180:9: warning: implicit declaration of function '_tango_TRANS2_FIND_FIRST2' is invalid in C99 [-Wimplicit-function-declaration]
+o         return _tango_TRANS2_FIND_FIRST2(connection, search_pattern, file_info_arr, file_info_arr_size);
+o                ^
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango.c:188:6: warning: implicit declaration of function '_tango_NT_Create' is invalid in C99 [-Wimplicit-function-declaration]
+o         if (_tango_NT_Create(connection, file_path, FILE_SHARE_READ, FILE_OPEN) == -1) {
+o             ^
+o3 warnings generated.
+lSLF07#2@58"Compile /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango.c312410382#312410386#0(809"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango.c:148:2: warning: implicit declaration of function 'close' is invalid in C99 [-Wimplicit-function-declaration]         close(connection->socket);         ^/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango.c:180:9: warning: implicit declaration of function '_tango_TRANS2_FIND_FIRST2' is invalid in C99 [-Wimplicit-function-declaration]         return _tango_TRANS2_FIND_FIRST2(connection, search_pattern, file_info_arr, file_info_arr_size);                ^/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango.c:188:6: warning: implicit declaration of function '_tango_NT_Create' is invalid in C99 [-Wimplicit-function-declaration]         if (_tango_NT_Create(connection, file_path, FILE_SHARE_READ, FILE_OPEN) == -1) {             ^3 warnings generated.3(22@58"Implicit declaration of function 'close' is invalid in C99312410385#0#160#0(6@50"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango.c312410125#148#2#0#0#52"implicit declaration of function * is invalid in C990(22@78"Implicit declaration of function '_tango_TRANS2_FIND_FIRST2' is invalid in C99312410385#207#180#0(6@50"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango.c312410125#180#9#0#0#52"implicit declaration of function * is invalid in C990(22@69"Implicit declaration of function '_tango_NT_Create' is invalid in C99312410385#511#171#0(6@50"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango.c312410125#188#6#0#0#52"implicit declaration of function * is invalid in C990(0#0#50"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango.c8615346752#1822"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-generated-files.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-own-target-headers.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-all-target-headers.hmap -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-project-headers.hmap -F/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator -I/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/include -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources/i386 -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources -include /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-aniksazigdrsmdfuobpaelgiaekr/tango_Prefix.pch -c /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango.c -o /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango.o0#
+
+CCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/TangoBase.o /Users/daniel/Dev/cocoa/dump/tango/Classes/TangoBase.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s312410385.421805
+e312410386.128218
+r1
+xCompileC
+xbuild/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/TangoBase.o
+x/Users/daniel/Dev/cocoa/dump/tango/Classes/TangoBase.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@62"Compile /Users/daniel/Dev/cocoa/dump/tango/Classes/TangoBase.c312410385#312410386#0(0"0(0#0#54"/Users/daniel/Dev/cocoa/dump/tango/Classes/TangoBase.c8624025312#1830"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-generated-files.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-own-target-headers.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-all-target-headers.hmap -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-project-headers.hmap -F/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator -I/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/include -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources/i386 -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources -include /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-aniksazigdrsmdfuobpaelgiaekr/tango_Prefix.pch -c /Users/daniel/Dev/cocoa/dump/tango/Classes/TangoBase.c -o /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/TangoBase.o0#
+
+CCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/TangoSecurity.o /Users/daniel/Dev/cocoa/dump/tango/Classes/TangoSecurity.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s312410384.553433
+e312410385.421707
+r1
+xCompileC
+xbuild/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/TangoSecurity.o
+x/Users/daniel/Dev/cocoa/dump/tango/Classes/TangoSecurity.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@66"Compile /Users/daniel/Dev/cocoa/dump/tango/Classes/TangoSecurity.c312410384#312410385#0(0"0(0#0#58"/Users/daniel/Dev/cocoa/dump/tango/Classes/TangoSecurity.c8626613408#1838"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-generated-files.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-own-target-headers.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-all-target-headers.hmap -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-project-headers.hmap -F/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator -I/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/include -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources/i386 -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources -include /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-aniksazigdrsmdfuobpaelgiaekr/tango_Prefix.pch -c /Users/daniel/Dev/cocoa/dump/tango/Classes/TangoSecurity.c -o /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/TangoSecurity.o0#
+
+CCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_Echo.o /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Echo.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s312410386.470712
+e312410386.620063
+r1
+xCompileC
+xbuild/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_Echo.o
+x/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Echo.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Echo.c:56:7: warning: implicit declaration of function '_tango_send' is invalid in C99 [-Wimplicit-function-declaration]
+o         if (!_tango_send(connection, smb)) {
+o              ^
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Echo.c:61:8: warning: implicit declaration of function '_tango_receive' is invalid in C99 [-Wimplicit-function-declaration]
+o                 if (!_tango_receive(connection, smb)) {
+o                      ^
+o2 warnings generated.
+lSLF07#2@63"Compile /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Echo.c312410386#312410386#0(508"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Echo.c:56:7: warning: implicit declaration of function '_tango_send' is invalid in C99 [-Wimplicit-function-declaration]         if (!_tango_send(connection, smb)) {              ^/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Echo.c:61:8: warning: implicit declaration of function '_tango_receive' is invalid in C99 [-Wimplicit-function-declaration]                 if (!_tango_receive(connection, smb)) {                      ^2 warnings generated.2(22@64"Implicit declaration of function '_tango_send' is invalid in C99312410386#0#170#0(6@55"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Echo.c312410264#56#7#0#0#52"implicit declaration of function * is invalid in C990(22@67"Implicit declaration of function '_tango_receive' is invalid in C99312410386#232#173#0(6@55"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Echo.c312410264#61#8#0#0#52"implicit declaration of function * is invalid in C990(0#0#55"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Echo.c8626338880#1832"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-generated-files.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-own-target-headers.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-all-target-headers.hmap -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-project-headers.hmap -F/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator -I/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/include -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources/i386 -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources -include /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-aniksazigdrsmdfuobpaelgiaekr/tango_Prefix.pch -c /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Echo.c -o /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_Echo.o0#
+
+CCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_Find2First.o /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s312410386.241021
+e312410386.470611
+r1
+xCompileC
+xbuild/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_Find2First.o
+x/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:90:23:{90:23-90:45}: warning: passing 'unsigned char *' to parameter of type 'char const *' converts between pointers to integer types with different sign [-Wpointer-sign]
+o         data_offset = strlen(data_ptr + data_offset) + 1;
+o                              ^~~~~~~~~~~~~~~~~~~~~~
+oIn file included from /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:12:
+oIn file included from /Users/daniel/Dev/cocoa/dump/tango/Classes/TangoBase.h:14:
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/string.h:98:28: note: passing argument to parameter here
+o size_t   strlen(const char *);
+o                             ^
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:43:16: warning: unused variable 'parameter_count' [-Wunused-variable]
+o         unsigned char parameter_count = *(unsigned char *)(parameters_ptr + parameters_offset);
+o                       ^
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:406:17: warning: unused variable 'file_name_length' [-Wunused-variable]
+o                 unsigned char file_name_length = *((unsigned char *)(data_ptr + data_offset));
+o                               ^
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:311:17: warning: unused variable 'resp_parameter_displacement' [-Wunused-variable]
+o         unsigned short resp_parameter_displacement = *((unsigned short *)(parameters_ptr + parameters_offset));
+o                        ^
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:367:17: warning: unused variable 'resp_data_last_name_offset' [-Wunused-variable]
+o         unsigned short resp_data_last_name_offset = *((unsigned short *)(data_ptr + data_offset));
+o                        ^
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:323:17: warning: unused variable 'resp_data_displacement' [-Wunused-variable]
+o         unsigned short resp_data_displacement = *((unsigned short *)(parameters_ptr + parameters_offset));
+o                        ^
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:327:16: warning: unused variable 'resp_setup_count' [-Wunused-variable]
+o         unsigned char resp_setup_count = *((unsigned char *)(parameters_ptr + parameters_offset));
+o                       ^
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:351:17: warning: unused variable 'resp_data_sid' [-Wunused-variable]
+o         unsigned short resp_data_sid = *((unsigned short *)(data_ptr + data_offset));
+o                        ^
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:307:17: warning: unused variable 'resp_parameter_offset' [-Wunused-variable]
+o         unsigned short resp_parameter_offset = *((unsigned short *)(parameters_ptr + parameters_offset));
+o                        ^
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:363:17: warning: unused variable 'resp_data_ea_error_offset' [-Wunused-variable]
+o         unsigned short resp_data_ea_error_offset = *((unsigned short *)(data_ptr + data_offset));
+o                        ^
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:319:17: warning: unused variable 'resp_data_offset' [-Wunused-variable]
+o         unsigned short resp_data_offset = *((unsigned short *)(parameters_ptr + parameters_offset));
+o                        ^
+o11 warnings generated.
+lSLF07#2@69"Compile /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c312410386#312410386#0(3404"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:90:23:{90:23-90:45}: warning: passing 'unsigned char *' to parameter of type 'char const *' converts between pointers to integer types with different sign [-Wpointer-sign]         data_offset = strlen(data_ptr + data_offset) + 1;                              ^~~~~~~~~~~~~~~~~~~~~~In file included from /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:12:In file included from /Users/daniel/Dev/cocoa/dump/tango/Classes/TangoBase.h:14:/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/string.h:98:28: note: passing argument to parameter here size_t   strlen(const char *);                             ^/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:43:16: warning: unused variable 'parameter_count' [-Wunused-variable]         unsigned char parameter_count = *(unsigned char *)(parameters_ptr + parameters_offset);                       ^/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:406:17: warning: unused variable 'file_name_length' [-Wunused-variable]                 unsigned char file_name_length = *((unsigned char *)(data_ptr + data_offset));                               ^/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:311:17: warning: unused variable 'resp_parameter_displacement' [-Wunused-variable]         unsigned short resp_parameter_displacement = *((unsigned short *)(parameters_ptr + parameters_offset));                        ^/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:367:17: warning: unused variable 'resp_data_last_name_offset' [-Wunused-variable]         unsigned short resp_data_last_name_offset = *((unsigned short *)(data_ptr + data_offset));                        ^/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:323:17: warning: unused variable 'resp_data_displacement' [-Wunused-variable]         unsigned short resp_data_displacement = *((unsigned short *)(parameters_ptr + parameters_offset));                        ^/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:327:16: warning: unused variable 'resp_setup_count' [-Wunused-variable]         unsigned char resp_setup_count = *((unsigned char *)(parameters_ptr + parameters_offset));                       ^/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:351:17: warning: unused variable 'resp_data_sid' [-Wunused-variable]         unsigned short resp_data_sid = *((unsigned short *)(data_ptr + data_offset));                        ^/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:307:17: warning: unused variable 'resp_parameter_offset' [-Wunused-variable]         unsigned short resp_parameter_offset = *((unsigned short *)(parameters_ptr + parameters_offset));                        ^/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:363:17: warning: unused variable 'resp_data_ea_error_offset' [-Wunused-variable]         unsigned short resp_data_ea_error_offset = *((unsigned short *)(data_ptr + data_offset));                        ^/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:319:17: warning: unused variable 'resp_data_offset' [-Wunused-variable]         unsigned short resp_data_offset = *((unsigned short *)(parameters_ptr + parameters_offset));                        ^11 warnings generated.12(22@124"Passing 'unsigned char *' to parameter of type 'char const *' converts between pointers to integer types with different sign312410386#0#234#0(6@61"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c312410296#90#23#0#0#64"* converts between pointers to integer types with different sign1(6@61"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c312410296#90#23#90#45#13@34"Passing argument to parameter here312410386#515#153#3(7@80"In file included from /Users/daniel/Dev/cocoa/dump/tango/Classes/TangoBase.h:14:312410386#434#81#0(6@54"/Users/daniel/Dev/cocoa/dump/tango/Classes/TangoBase.h312130843#14#0#14#0#0"0(7@87"In file included from /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c:12:312410386#346#88#0(6@61"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c312410296#12#0#12#0#0"0(13@142"Passing argument to parameter here in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/string.h312410386#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/string.h308030479#98#28#0#0#0"0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/string.h308030479#98#28#0#0#0"0(22@33"Unused variable 'parameter_count'312410386#731#132#0(6@61"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c312410296#43#16#0#0#17"unused variable *0(22@34"Unused variable 'file_name_length'312410386#985#134#0(6@61"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c312410296#406#17#0#0#17"unused variable *0(22@45"Unused variable 'resp_parameter_displacement'312410386#1248#145#0(6@61"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c312410296#311#17#0#0#17"unused variable *0(22@44"Unused variable 'resp_data_last_name_offset'312410386#1532#144#0(6@61"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c312410296#367#17#0#0#17"unused variable *0(22@40"Unused variable 'resp_data_displacement'312410386#1802#140#0(6@61"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c312410296#323#17#0#0#17"unused variable *0(22@34"Unused variable 'resp_setup_count'312410386#2076#134#0(6@61"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c312410296#327#16#0#0#17"unused variable *0(22@31"Unused variable 'resp_data_sid'312410386#2335#131#0(6@61"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c312410296#351#17#0#0#17"unused variable *0(22@39"Unused variable 'resp_parameter_offset'312410386#2579#139#0(6@61"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c312410296#307#17#0#0#17"unused variable *0(22@43"Unused variable 'resp_data_ea_error_offset'312410386#2851#143#0(6@61"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c312410296#363#17#0#0#17"unused variable *0(22@34"Unused variable 'resp_data_offset'312410386#3119#134#0(6@61"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c312410296#319#17#0#0#17"unused variable *0(0#0#61"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c8623872032#1844"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-generated-files.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-own-target-headers.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-all-target-headers.hmap -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-project-headers.hmap -F/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator -I/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/include -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources/i386 -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources -include /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-aniksazigdrsmdfuobpaelgiaekr/tango_Prefix.pch -c /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Find2First.c -o /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_Find2First.o0#
+
+CCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_LogOff.o /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_LogOff.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s312410386.451199
+e312410386.589934
+r1
+xCompileC
+xbuild/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_LogOff.o
+x/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_LogOff.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@65"Compile /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_LogOff.c312410386#312410386#0(0"0(0#0#57"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_LogOff.c8626457920#1836"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-generated-files.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-own-target-headers.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-all-target-headers.hmap -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-project-headers.hmap -F/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator -I/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/include -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources/i386 -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources -include /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-aniksazigdrsmdfuobpaelgiaekr/tango_Prefix.pch -c /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_LogOff.c -o /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_LogOff.o0#
+
+CCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_NT_Create.o /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_NT_Create.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s312410386.856730
+e312410386.946874
+r0
+xCompileC
+xbuild/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_NT_Create.o
+x/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_NT_Create.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_NT_Create.c:70:72: error: expected ';' after expression
+o         *((unsigned int *)(parameters_ptr + parameters_offset)) = share_access
+o                                                                               ^
+o                                                                               ;
+o1 error generated.
+lSLF07#2@68"Compile /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_NT_Create.c312410386#312410386#0(366"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_NT_Create.c:70:72: error: expected ';' after expression         *((unsigned int *)(parameters_ptr + parameters_offset)) = share_access                                                                               ^                                                                               ;1 error generated.1(4@29"Expected ';' after expression312410386#0#105#0(6@60"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_NT_Create.c312410368#70#72#0#0#10"expected *0(0#0#60"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_NT_Create.c8626405792#1842"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-generated-files.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-own-target-headers.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-all-target-headers.hmap -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-project-headers.hmap -F/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator -I/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/include -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources/i386 -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources -include /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-aniksazigdrsmdfuobpaelgiaekr/tango_Prefix.pch -c /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_NT_Create.c -o /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_NT_Create.o1#
+
+CCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_NegotiateProtocol.o /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_NegotiateProtocol.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s312410386.117101
+e312410386.222074
+r1
+xCompileC
+xbuild/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_NegotiateProtocol.o
+x/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_NegotiateProtocol.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@76"Compile /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_NegotiateProtocol.c312410386#312410386#0(0"0(0#0#68"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_NegotiateProtocol.c8625537216#1858"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-generated-files.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-own-target-headers.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-all-target-headers.hmap -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-project-headers.hmap -F/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator -I/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/include -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources/i386 -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources -include /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-aniksazigdrsmdfuobpaelgiaekr/tango_Prefix.pch -c /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_NegotiateProtocol.c -o /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_NegotiateProtocol.o0#
+
+CCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_Read.o /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Read.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s312410386.590055
+e312410386.681779
+r1
+xCompileC
+xbuild/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_Read.o
+x/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Read.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@63"Compile /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Read.c312410386#312410386#0(0"0(0#0#55"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Read.c8625526976#1832"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-generated-files.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-own-target-headers.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-all-target-headers.hmap -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-project-headers.hmap -F/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator -I/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/include -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources/i386 -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources -include /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-aniksazigdrsmdfuobpaelgiaekr/tango_Prefix.pch -c /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_Read.c -o /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_Read.o0#
+
+CCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_SessionSetup.o /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_SessionSetup.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s312410386.128319
+e312410386.240922
+r1
+xCompileC
+xbuild/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_SessionSetup.o
+x/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_SessionSetup.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_SessionSetup.c:19:17: warning: unused variable 'parameters_ptr' [-Wunused-variable]
+o         unsigned char *parameters_ptr = _tango_smb_getParametersPointer(smb);
+o                        ^
+o1 warning generated.
+lSLF07#2@71"Compile /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_SessionSetup.c312410386#312410386#0(259"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_SessionSetup.c:19:17: warning: unused variable 'parameters_ptr' [-Wunused-variable]         unsigned char *parameters_ptr = _tango_smb_getParametersPointer(smb);                        ^1 warning generated.1(22@32"Unused variable 'parameters_ptr'312410386#0#133#0(6@63"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_SessionSetup.c312410317#19#17#0#0#17"unused variable *0(0#0#63"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_SessionSetup.c8624698976#1848"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-generated-files.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-own-target-headers.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-all-target-headers.hmap -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-project-headers.hmap -F/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator -I/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/include -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources/i386 -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources -include /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-aniksazigdrsmdfuobpaelgiaekr/tango_Prefix.pch -c /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_SessionSetup.c -o /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_SessionSetup.o0#
+
+CCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_TreeConnect.o /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_TreeConnect.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s312410386.222174
+e312410386.354428
+r1
+xCompileC
+xbuild/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_TreeConnect.o
+x/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_TreeConnect.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@70"Compile /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_TreeConnect.c312410386#312410386#0(0"0(0#0#62"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_TreeConnect.c8616215808#1846"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-generated-files.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-own-target-headers.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-all-target-headers.hmap -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-project-headers.hmap -F/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator -I/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/include -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources/i386 -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources -include /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-aniksazigdrsmdfuobpaelgiaekr/tango_Prefix.pch -c /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_TreeConnect.c -o /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_TreeConnect.o0#
+
+CCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_TreeDisconnect.o /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_TreeDisconnect.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s312410386.354525
+e312410386.451097
+r1
+xCompileC
+xbuild/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_TreeDisconnect.o
+x/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_TreeDisconnect.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@73"Compile /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_TreeDisconnect.c312410386#312410386#0(0"0(0#0#65"/Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_TreeDisconnect.c8646903104#1852"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-generated-files.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-own-target-headers.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-all-target-headers.hmap -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-project-headers.hmap -F/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator -I/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/include -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources/i386 -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources -include /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-aniksazigdrsmdfuobpaelgiaekr/tango_Prefix.pch -c /Users/daniel/Dev/cocoa/dump/tango/Classes/Tango_TreeDisconnect.c -o /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/Tango_TreeDisconnect.o0#
+
+CCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/main.o /Users/daniel/Dev/cocoa/dump/tango/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s312410379.442425
+e312410382.229920
+r1
+xCompileC
+xbuild/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/main.o
+x/Users/daniel/Dev/cocoa/dump/tango/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@49"Compile /Users/daniel/Dev/cocoa/dump/tango/main.m312410379#312410382#0(0"0(0#0#41"/Users/daniel/Dev/cocoa/dump/tango/main.m8628139296#1866"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-generated-files.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-own-target-headers.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-all-target-headers.hmap -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-project-headers.hmap -F/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator -I/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/include -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources/i386 -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources -include /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-fxvtwnouiubimqgrlmoovkitgipk/tango_Prefix.pch -c /Users/daniel/Dev/cocoa/dump/tango/main.m -o /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/main.o0#
+
+CCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoConnection.o /Users/daniel/Dev/cocoa/dump/tango/Classes/tangoConnection.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s312410386.782720
+e312410386.862493
+r1
+xCompileC
+xbuild/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoConnection.o
+x/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoConnection.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoConnection.m:28:31: warning: 'cString' is deprecated [-Wdeprecated-declarations]
+o                 _connection = tango_create([share cString], [username cString], [password cString]);
+o                                             ^
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoConnection.m:28:48: warning: 'cString' is deprecated [-Wdeprecated-declarations]
+o                 _connection = tango_create([share cString], [username cString], [password cString]);
+o                                                              ^
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoConnection.m:28:68: warning: 'cString' is deprecated [-Wdeprecated-declarations]
+o                 _connection = tango_create([share cString], [username cString], [password cString]);
+o                                                                                  ^
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoConnection.m:75:10: warning: 'stringWithCString:' is deprecated [-Wdeprecated-declarations]
+o         return [NSString stringWithCString:tango_error_message(_connection)];
+o                 ^
+o4 warnings generated.
+lSLF07#2@68"Compile /Users/daniel/Dev/cocoa/dump/tango/Classes/tangoConnection.m312410386#312410386#0(1148"/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoConnection.m:28:31: warning: 'cString' is deprecated [-Wdeprecated-declarations]                 _connection = tango_create([share cString], [username cString], [password cString]);                                             ^/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoConnection.m:28:48: warning: 'cString' is deprecated [-Wdeprecated-declarations]                 _connection = tango_create([share cString], [username cString], [password cString]);                                                              ^/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoConnection.m:28:68: warning: 'cString' is deprecated [-Wdeprecated-declarations]                 _connection = tango_create([share cString], [username cString], [password cString]);                                                                                  ^/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoConnection.m:75:10: warning: 'stringWithCString:' is deprecated [-Wdeprecated-declarations]         return [NSString stringWithCString:tango_error_message(_connection)];                 ^4 warnings generated.4(22@23"'cString' is deprecated312410386#0#129#0(6@60"/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoConnection.m312152604#28#31#0#0#15"* is deprecated0(22@23"'cString' is deprecated312410386#278#129#0(6@60"/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoConnection.m312152604#28#48#0#0#15"* is deprecated0(22@23"'cString' is deprecated312410386#573#129#0(6@60"/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoConnection.m312152604#28#68#0#0#15"* is deprecated0(22@34"'stringWithCString:' is deprecated312410386#888#140#0(6@60"/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoConnection.m312152604#75#10#0#0#15"* is deprecated0(0#0#60"/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoConnection.m8627902112#1896"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-generated-files.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-own-target-headers.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-all-target-headers.hmap -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-project-headers.hmap -F/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator -I/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/include -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources/i386 -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources -include /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-fxvtwnouiubimqgrlmoovkitgipk/tango_Prefix.pch -c /Users/daniel/Dev/cocoa/dump/tango/Classes/tangoConnection.m -o /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoConnection.o0#
+
+CCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoFSFolderViewController.o /Users/daniel/Dev/cocoa/dump/tango/Classes/tangoFSFolderViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s312410386.681888
+e312410386.798439
+r1
+xCompileC
+xbuild/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoFSFolderViewController.o
+x/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoFSFolderViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@80"Compile /Users/daniel/Dev/cocoa/dump/tango/Classes/tangoFSFolderViewController.m312410386#312410386#0(0"0(0#0#72"/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoFSFolderViewController.m8625236512#1920"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-generated-files.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-own-target-headers.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-all-target-headers.hmap -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-project-headers.hmap -F/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator -I/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/include -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources/i386 -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources -include /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-fxvtwnouiubimqgrlmoovkitgipk/tango_Prefix.pch -c /Users/daniel/Dev/cocoa/dump/tango/Classes/tangoFSFolderViewController.m -o /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoFSFolderViewController.o0#
+
+CCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoFileInfo.o /Users/daniel/Dev/cocoa/dump/tango/Classes/tangoFileInfo.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s312410386.798537
+e312410386.856472
+r1
+xCompileC
+xbuild/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoFileInfo.o
+x/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoFileInfo.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoFileInfo.m:32:10: warning: 'stringWithCString:' is deprecated [-Wdeprecated-declarations]
+o         return [NSString stringWithCString:_fileInfo.filename]; 
+o                 ^
+o1 warning generated.
+lSLF07#2@66"Compile /Users/daniel/Dev/cocoa/dump/tango/Classes/tangoFileInfo.m312410386#312410386#0(244"/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoFileInfo.m:32:10: warning: 'stringWithCString:' is deprecated [-Wdeprecated-declarations]         return [NSString stringWithCString:_fileInfo.filename];                  ^1 warning generated.1(22@34"'stringWithCString:' is deprecated312410386#0#138#0(6@58"/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoFileInfo.m312152612#32#10#0#0#15"* is deprecated0(0#0#58"/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoFileInfo.m8626573664#1892"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-generated-files.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-own-target-headers.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-all-target-headers.hmap -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-project-headers.hmap -F/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator -I/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/include -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources/i386 -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources -include /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-fxvtwnouiubimqgrlmoovkitgipk/tango_Prefix.pch -c /Users/daniel/Dev/cocoa/dump/tango/Classes/tangoFileInfo.m -o /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoFileInfo.o0#
+
+CCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoLoginViewController.o /Users/daniel/Dev/cocoa/dump/tango/Classes/tangoLoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s312410386.620168
+e312410386.782621
+r1
+xCompileC
+xbuild/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoLoginViewController.o
+x/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoLoginViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@77"Compile /Users/daniel/Dev/cocoa/dump/tango/Classes/tangoLoginViewController.m312410386#312410386#0(0"0(0#0#69"/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoLoginViewController.m8623976128#1914"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-generated-files.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-own-target-headers.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-all-target-headers.hmap -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-project-headers.hmap -F/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator -I/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/include -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources/i386 -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources -include /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-fxvtwnouiubimqgrlmoovkitgipk/tango_Prefix.pch -c /Users/daniel/Dev/cocoa/dump/tango/Classes/tangoLoginViewController.m -o /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoLoginViewController.o0#
+
+CCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoTestAppDelegate.o /Users/daniel/Dev/cocoa/dump/tango/Classes/tangoTestAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s312410379.495111
+e312410384.553253
+r1
+xCompileC
+xbuild/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoTestAppDelegate.o
+x/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoTestAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoTestAppDelegate.m:37:19: warning: implicit declaration of function 'tango_list_current_directory' is invalid in C99 [-Wimplicit-function-declaration]
+o         int file_count = tango_list_current_directory(connection, file_info_arr, 256);
+o                          ^
+o/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoTestAppDelegate.m:40:36:{40:9-40:34}: warning: data argument not used by format string [-Wformat-extra-args]
+o         printf("---------------------\n", file_count);
+o                ~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+o2 warnings generated.
+lSLF07#2@73"Compile /Users/daniel/Dev/cocoa/dump/tango/Classes/tangoTestAppDelegate.m312410379#312410384#0(594"/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoTestAppDelegate.m:37:19: warning: implicit declaration of function 'tango_list_current_directory' is invalid in C99 [-Wimplicit-function-declaration]         int file_count = tango_list_current_directory(connection, file_info_arr, 256);                          ^/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoTestAppDelegate.m:40:36:{40:9-40:34}: warning: data argument not used by format string [-Wformat-extra-args]         printf("---------------------\n", file_count);                ~~~~~~~~~~~~~~~~~~~~~~~~~  ^2 warnings generated.2(22@81"Implicit declaration of function 'tango_list_current_directory' is invalid in C99312410381#0#198#0(6@65"/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoTestAppDelegate.m312409508#37#19#0#0#52"implicit declaration of function * is invalid in C990(22@39"Data argument not used by format string312410381#314#157#0(6@65"/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoTestAppDelegate.m312409508#40#36#0#0#39"data argument not used by format string1(6@65"/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoTestAppDelegate.m312409508#40#9#40#34#0#0#65"/Users/daniel/Dev/cocoa/dump/tango/Classes/tangoTestAppDelegate.m8627850208#1906"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-generated-files.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-own-target-headers.hmap -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-all-target-headers.hmap -iquote /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/tango-project-headers.hmap -F/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator -I/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/include -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources/i386 -I/Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/DerivedSources -include /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-fxvtwnouiubimqgrlmoovkitgipk/tango_Prefix.pch -c /Users/daniel/Dev/cocoa/dump/tango/Classes/tangoTestAppDelegate.m -o /Users/daniel/Dev/cocoa/dump/tango/build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tangoTestAppDelegate.o0#
+
+CCompileC build/tango.build/Debug-iphonesimulator/tango.build/Objects-normal/i386/tango_Read.o /Users/daniel/Dev/cocoa/dump/tango/Classes/tango_Read.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileXIB /Users/daniel/Dev/cocoa/dump/tango/MainWindow.xib
+s312410372.734462
+e312410379.442150
+r1
+xCompileXIB
+x/Users/daniel/Dev/cocoa/dump/tango/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib312410372#312410379#0(0"0(0#0#49"/Users/daniel/Dev/cocoa/dump/tango/MainWindow.xib8623983424#556"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app/MainWindow.nib /Users/daniel/Dev/cocoa/dump/tango/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/tango.app/LICENSE.txt LICENSE.txt
+s312410372.710301
+e312410373.238165
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/tango.app/LICENSE.txt
+xLICENSE.txt
+lSLF07#2@16"Copy LICENSE.txt312410372#312410373#0(0"0(0#0#46"/Users/daniel/Dev/cocoa/dump/tango/LICENSE.txt8626263264#455"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/daniel/Dev/cocoa/dump/tango/LICENSE.txt /Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app0#
+
+CCpResource build/Debug-iphonesimulator/tango.app/file.png file.png
+s312410373.238258
+e312410373.408248
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/tango.app/file.png
+xfile.png
+lSLF07#2@13"Copy file.png312410373#312410373#0(0"0(0#0#43"/Users/daniel/Dev/cocoa/dump/tango/file.png8628192256#452"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/daniel/Dev/cocoa/dump/tango/file.png /Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app0#
+
+CCpResource build/Debug-iphonesimulator/tango.app/folder.png folder.png
+s312410373.240108
+e312410373.340576
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/tango.app/folder.png
+xfolder.png
+lSLF07#2@15"Copy folder.png312410373#312410373#0(0"0(0#0#45"/Users/daniel/Dev/cocoa/dump/tango/folder.png8628144416#454"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/daniel/Dev/cocoa/dump/tango/folder.png /Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app0#
+
+CGenerateDSYMFile /Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app.dSYM /Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app/tango
+r0
+
+CLd /Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app/tango normal i386
+r0
+
+CProcessInfoPlistFile /Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app/Info.plist tango-Info.plist
+s312410372.707025
+e312410372.710204
+r1
+xProcessInfoPlistFile
+x/Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app/Info.plist
+xtango-Info.plist
+lSLF07#2@24"Process tango-Info.plist312410372#312410372#0(0"0(0#0#51"/Users/daniel/Dev/cocoa/dump/tango/tango-Info.plist29555366482477168#461"    cd /Users/daniel/Dev/cocoa/dump/tango    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility tango-Info.plist -genpkginfo /Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app/Info.plist0#
+
+CProcessPCH /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-aniksazigdrsmdfuobpaelgiaekr/tango_Prefix.pch.pth tango_Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/EH/EHMF5LNoGzSn0DACYvAl4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tango_Prefix-fxvtwnouiubimqgrlmoovkitgipk/tango_Prefix.pch.pth tango_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CTouch /Users/daniel/Dev/cocoa/dump/tango/build/Debug-iphonesimulator/tango.app
+r0
+

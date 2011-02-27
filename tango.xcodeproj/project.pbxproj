@@ -21,7 +21,7 @@
 		65010E21129AA18B0070372A /* Tango_LogOff.c in Sources */ = {isa = PBXBuildFile; fileRef = 65010E20129AA18B0070372A /* Tango_LogOff.c */; };
 		65010E31129AA3960070372A /* Tango_Echo.c in Sources */ = {isa = PBXBuildFile; fileRef = 65010E30129AA3960070372A /* Tango_Echo.c */; };
 		65010ED7129ABD410070372A /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65010ED6129ABD410070372A /* LICENSE.txt */; };
-		65010EDA129ABD760070372A /* tango_Read.c in Sources */ = {isa = PBXBuildFile; fileRef = 65010ED9129ABD760070372A /* tango_Read.c */; };
+		65010EDA129ABD760070372A /* Tango_Read.c in Sources */ = {isa = PBXBuildFile; fileRef = 65010ED9129ABD760070372A /* Tango_Read.c */; };
 		65010F20129AC7AC0070372A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65010F1F129AC7AC0070372A /* MainWindow.xib */; };
 		65010F29129ACA9B0070372A /* tangoLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65010F28129ACA9B0070372A /* tangoLoginViewController.m */; };
 		65010F80129ADC0B0070372A /* tangoFSFolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65010F7F129ADC0B0070372A /* tangoFSFolderViewController.m */; };
@@ -30,7 +30,9 @@
 		65010FEA129AE9EB0070372A /* file.png in Resources */ = {isa = PBXBuildFile; fileRef = 65010FE8129AE9EB0070372A /* file.png */; };
 		65010FEB129AE9EB0070372A /* folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 65010FE9129AE9EB0070372A /* folder.png */; };
 		6543BF7B11C3AC61008C4668 /* Tango.c in Sources */ = {isa = PBXBuildFile; fileRef = 6543BF7A11C3AC61008C4668 /* Tango.c */; };
+		658C141F129EF72D00BB2C1B /* Tango_NT_Create.c in Sources */ = {isa = PBXBuildFile; fileRef = 658C141E129EF72D00BB2C1B /* Tango_NT_Create.c */; };
 		65ED413711CE74E3001338F7 /* TangoSecurity.c in Sources */ = {isa = PBXBuildFile; fileRef = 65ED413611CE74E3001338F7 /* TangoSecurity.c */; };
+		65F4A4E1131965F300FF883D /* Tango_Close.c in Sources */ = {isa = PBXBuildFile; fileRef = 65F4A4DF131965F200FF883D /* Tango_Close.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,8 +61,8 @@
 		65010E2F129AA3960070372A /* Tango_Echo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tango_Echo.h; sourceTree = "<group>"; };
 		65010E30129AA3960070372A /* Tango_Echo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Tango_Echo.c; sourceTree = "<group>"; };
 		65010ED6129ABD410070372A /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		65010ED8129ABD760070372A /* tango_Read.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tango_Read.h; sourceTree = "<group>"; };
-		65010ED9129ABD760070372A /* tango_Read.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tango_Read.c; sourceTree = "<group>"; };
+		65010ED8129ABD760070372A /* Tango_Read.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tango_Read.h; sourceTree = "<group>"; };
+		65010ED9129ABD760070372A /* Tango_Read.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Tango_Read.c; sourceTree = "<group>"; };
 		65010F1F129AC7AC0070372A /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		65010F27129ACA9B0070372A /* tangoLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tangoLoginViewController.h; sourceTree = "<group>"; };
 		65010F28129ACA9B0070372A /* tangoLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tangoLoginViewController.m; sourceTree = "<group>"; };
@@ -75,8 +77,12 @@
 		6543BF7911C3AC61008C4668 /* Tango.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tango.h; sourceTree = "<group>"; };
 		6543BF7A11C3AC61008C4668 /* Tango.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Tango.c; sourceTree = "<group>"; };
 		6543BF7C11C3AD04008C4668 /* TangoTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TangoTypes.h; sourceTree = "<group>"; };
+		658C141D129EF72D00BB2C1B /* Tango_NT_Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tango_NT_Create.h; sourceTree = "<group>"; };
+		658C141E129EF72D00BB2C1B /* Tango_NT_Create.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Tango_NT_Create.c; sourceTree = "<group>"; };
 		65ED413511CE74E3001338F7 /* TangoSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TangoSecurity.h; sourceTree = "<group>"; };
 		65ED413611CE74E3001338F7 /* TangoSecurity.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TangoSecurity.c; sourceTree = "<group>"; };
+		65F4A4DF131965F200FF883D /* Tango_Close.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Tango_Close.c; sourceTree = "<group>"; };
+		65F4A4E0131965F300FF883D /* Tango_Close.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tango_Close.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* tango-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "tango-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +103,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				658C1420129EF76400BB2C1B /* objcWrapper */,
 				6543BF7811C3AC44008C4668 /* tangoLib */,
 				1D3623240D0F684500981E51 /* tangoTestAppDelegate.h */,
 				1D3623250D0F684500981E51 /* tangoTestAppDelegate.m */,
@@ -104,10 +111,6 @@
 				65010F28129ACA9B0070372A /* tangoLoginViewController.m */,
 				65010F7E129ADC0B0070372A /* tangoFSFolderViewController.h */,
 				65010F7F129ADC0B0070372A /* tangoFSFolderViewController.m */,
-				65010F82129ADD1A0070372A /* tangoConnection.h */,
-				65010F83129ADD1A0070372A /* tangoConnection.m */,
-				65010F97129AE1250070372A /* tangoFileInfo.h */,
-				65010F98129AE1250070372A /* tangoFileInfo.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -166,6 +169,8 @@
 		6501087A129085F00070372A /* SMB */ = {
 			isa = PBXGroup;
 			children = (
+				65F4A4DF131965F200FF883D /* Tango_Close.c */,
+				65F4A4E0131965F300FF883D /* Tango_Close.h */,
 				65010877129085E70070372A /* Tango_NegotiateProtocol.h */,
 				65010878129085E70070372A /* Tango_NegotiateProtocol.c */,
 				6501087B129086610070372A /* Tango_SessionSetup.h */,
@@ -180,8 +185,10 @@
 				65010E20129AA18B0070372A /* Tango_LogOff.c */,
 				65010E2F129AA3960070372A /* Tango_Echo.h */,
 				65010E30129AA3960070372A /* Tango_Echo.c */,
-				65010ED8129ABD760070372A /* tango_Read.h */,
-				65010ED9129ABD760070372A /* tango_Read.c */,
+				65010ED8129ABD760070372A /* Tango_Read.h */,
+				65010ED9129ABD760070372A /* Tango_Read.c */,
+				658C141D129EF72D00BB2C1B /* Tango_NT_Create.h */,
+				658C141E129EF72D00BB2C1B /* Tango_NT_Create.c */,
 			);
 			name = SMB;
 			sourceTree = "<group>";
@@ -199,6 +206,17 @@
 				65010875129084560070372A /* TangoBase.c */,
 			);
 			name = tangoLib;
+			sourceTree = "<group>";
+		};
+		658C1420129EF76400BB2C1B /* objcWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				65010F82129ADD1A0070372A /* tangoConnection.h */,
+				65010F83129ADD1A0070372A /* tangoConnection.m */,
+				65010F97129AE1250070372A /* tangoFileInfo.h */,
+				65010F98129AE1250070372A /* tangoFileInfo.m */,
+			);
+			name = objcWrapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,11 +294,13 @@
 				65010D95129A9E5A0070372A /* Tango_TreeDisconnect.c in Sources */,
 				65010E21129AA18B0070372A /* Tango_LogOff.c in Sources */,
 				65010E31129AA3960070372A /* Tango_Echo.c in Sources */,
-				65010EDA129ABD760070372A /* tango_Read.c in Sources */,
+				65010EDA129ABD760070372A /* Tango_Read.c in Sources */,
 				65010F29129ACA9B0070372A /* tangoLoginViewController.m in Sources */,
 				65010F80129ADC0B0070372A /* tangoFSFolderViewController.m in Sources */,
 				65010F84129ADD1A0070372A /* tangoConnection.m in Sources */,
 				65010F99129AE1250070372A /* tangoFileInfo.m in Sources */,
+				658C141F129EF72D00BB2C1B /* Tango_NT_Create.c in Sources */,
+				65F4A4E1131965F300FF883D /* Tango_Close.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

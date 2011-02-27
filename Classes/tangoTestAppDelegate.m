@@ -21,14 +21,14 @@
     // Override point for customization after application launch
 	
 	//TangoTestViewController *controller = [[TangoTestViewController alloc] initWithNibName:@"TangoTestApp" bundle:nil];
-	/*UINavigationController *navigationController = [[UINavigationController alloc]
+	UINavigationController *navigationController = [[UINavigationController alloc]
 													initWithRootViewController:rootViewController];
 	
 	[window addSubview:navigationController.view];
 	[window makeKeyAndVisible];
-	*/
 	
 	
+	/*
 	tango_connection_t *connection = tango_create("\\\\172.16.116.129\\folder", "Administrator", "wn");
 	tango_connect(connection);
 	
@@ -48,13 +48,13 @@
 	}
 
 	unsigned char *file_buffer = malloc(file_info_arr[1].file_size);
-	
-	if (tango_read_file(connection, &file_info_arr[1], 0, file_info_arr[1].file_size, file_buffer) < 0) {
+	int bytes_read = 0;
+	if ((bytes_read = tango_read_file(connection, &file_info_arr[1], 0, file_info_arr[1].file_size, file_buffer)) < 0) {
 		printf("Error reading file\n");
 	}
 	
-	_tango_print_bytes(file_buffer, file_info_arr[1].file_size);
-	
+	_tango_print_bytes(file_buffer, bytes_read);
+	*/
     /*
 	if (tango_test_connection(connection) <= 0) printf("Echo failed\n");
 	

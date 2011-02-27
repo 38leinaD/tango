@@ -32,6 +32,7 @@ typedef struct _tango_smb_t {
 #define SMB_COM_TRANSACTION2_SECONDARY	(0x33)
 #define SMB_COM_NT_CREATE_ANDX			(0xA2)
 #define SMB_COM_OPEN_ANDX				(0x2D)
+#define SMB_COM_CLOSE                   (0x04)
 #define SMB_COM_READ_ANDX				(0x2E)
 #define SMB_COM_ECHO					(0x2B)
 #define SMB_COM_NONE					(0xFF)
@@ -178,6 +179,7 @@ typedef struct _tango_connection {
 	unsigned char sec_challenge[8]; // Challenge in the challenge/response security
 	unsigned int session_key;
 	unsigned char extended_security;
+    unsigned int server_capabilities;
 	
 	// Error-Handling
 	int error;

@@ -33,6 +33,7 @@
 - (void)disconnect;
 
 - (NSArray *)listDirectory:(tangoFileInfo *)fileInfo;
+- (NSData *)readFile:(tangoFileInfo *)fileInfo;
 
 - (BOOL)error;
 - (NSString *)errorMessage;

@@ -162,6 +162,12 @@ int _tango_NEGOTIATE_PROTOCOL(tango_connection_t *connection) {
 		_tango_set_error(connection, kTangoErrorUnsupported, "Unsupported security mode");
 		goto bailout;
 	}
+    
+    debug("_tango_NEGOTIATE_PROTOCOL(): Server Capabilities 0x%x\n", capabilities);
+    connection->server_capabilities = capabilities;
+    if (capabilities & CAP_LARGE_READX) {
+        debug("_tango_NEGOTIATE_PROTOCOL(): - CAP_LARGE_READX\n");
+    }
 	
 	//time_t time = (time_t)((((((unsigned long)params->SystemTimeLow) << 32) | params->SystemTimeHigh)/10000000) - 11644473600);
 	

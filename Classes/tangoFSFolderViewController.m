@@ -166,6 +166,21 @@
 	}
 	else {
 		[tableView deselectRowAtIndexPath:indexPath animated:NO];
+        
+        NSString *tmpDir = NSTemporaryDirectory();
+        
+        
+        NSLog(@"FILE IS %@", fileInfo.name);
+        
+        NSData *data = [_connection readFile:fileInfo];
+
+        NSLog(@"TMP DATA DIR %@", tmpDir);
+        
+        if (data != nil) {
+            NSString *filePath = [tmpDir stringByAppendingFormat:@"/%@",fileInfo.name];
+            [[NSFileManager defaultManager] createFileAtPath:filePath contents:data attributes:nil];
+            NSLog(@"Wrote file");
+        }
 	}
 }
 

@@ -104,10 +104,10 @@ int _tango_NT_Create(tango_connection_t *connection, tango_file_info_t *file_inf
 	 */
 	
 #ifdef VERY_VERBOSE
-	printf("_tango_NT_Create(): Sending NT_Create:\n");
-	printf("-----------------------------------------------------------------------------\n");
+	debug("_tango_NT_Create(): Sending NT_Create:\n");
+	debug("-----------------------------------------------------------------------------\n");
 	_tango_print_message(smb);
-	printf("-----------------------------------------------------------------------------\n");
+	debug("-----------------------------------------------------------------------------\n");
 #endif
 	
 	if (!_tango_send_and_receive(connection, smb, NULL)) {
@@ -137,10 +137,10 @@ int _tango_NT_Create(tango_connection_t *connection, tango_file_info_t *file_inf
 	}
 	
 #ifdef VERY_VERBOSE
-	printf("_tango_NT_Create(): Received response:\n");
-	printf("-----------------------------------------------------------------------------\n");
+	debug("_tango_NT_Create(): Received response:\n");
+	debug("-----------------------------------------------------------------------------\n");
 	_tango_print_message(smb);
-	printf("-----------------------------------------------------------------------------\n");
+	debug("-----------------------------------------------------------------------------\n");
 #endif
 	
 	// Parameters
