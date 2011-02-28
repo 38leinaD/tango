@@ -34,6 +34,7 @@ typedef struct _tango_smb_t {
 #define SMB_COM_OPEN_ANDX				(0x2D)
 #define SMB_COM_CLOSE                   (0x04)
 #define SMB_COM_READ_ANDX				(0x2E)
+#define SMB_COM_WRITE_ANDX				(0x2F)
 #define SMB_COM_ECHO					(0x2B)
 #define SMB_COM_NONE					(0xFF)
 
@@ -152,6 +153,7 @@ enum {
 	kTangoSessionStatusConnectedToShare
 };
 
+
 enum {
 	kTangoSessionFlagLoggedInAnonymously = 1
 };
@@ -197,5 +199,11 @@ typedef struct _tango_file_info {
 	
 	unsigned short fid;
 } tango_file_info_t;
+
+
+typedef enum {
+	kTangoOpenFileForRead = 0x01,
+	kTangoOpenFileForWrite = 0x02
+} tango_open_t;
 
 #endif

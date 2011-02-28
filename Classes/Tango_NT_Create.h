@@ -12,6 +12,6 @@
 
 #include "TangoBase.h"
 
-int _tango_NT_Create(tango_connection_t *connection, tango_file_info_t *file_info, unsigned int share_access, unsigned int create_disposition);
+int _tango_NT_Create(tango_connection_t *connection, tango_file_info_t *file_info, tango_open_t open_type, unsigned int create_disposition);
 
 #endif

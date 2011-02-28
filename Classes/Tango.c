@@ -18,6 +18,7 @@
 #include "Tango_LogOff.h"
 #include "Tango_Echo.h"
 #include "tango_Read.h"
+#include "tango_Write.h"
 #include "Tango_NT_Create.h"
 #include "Tango_Close.h"
 
@@ -170,6 +171,18 @@ void tango_create_root_file_info(tango_connection_t *connection, tango_file_info
 	strcpy(root_file_info->path, "");
 }
 
+void tango_create_file_info(tango_connection_t *connection, tango_file_info_t *parent_file_info, tango_file_info_t *file_info, const char *file_name, int is_folder) {
+	//parent_file_info->connection = connection;
+	parent_file_info->file_size = 0;
+	parent_file_info->is_folder = is_folder;
+	
+	//unsigned int pos_of_last_slash = strrchr(connection->share, '\\') - connection->share;
+    strcpy(file_info->filename, file_name);  
+    strcpy(file_info->path, parent_file_info->path);
+    file_info->path[strlen(file_info->path)] = '\\';
+    strcpy(file_info->path + strlen(file_info->path) + 1, parent_file_info->filename);
+}
+
 
 int tango_list_directory(tango_connection_t *connection, tango_file_info_t *directory, tango_file_info_t file_info_arr[], unsigned int file_info_arr_size) {
 	char search_pattern[256];
@@ -185,7 +198,7 @@ int tango_read_file(tango_connection_t *connection, tango_file_info_t *file_info
 	int operation_result = -1;
 	
 	int result;
-	if ((operation_result = _tango_NT_Create(connection, file_info, FILE_SHARE_READ, FILE_OPEN)) == -1) {
+	if ((operation_result = _tango_NT_Create(connection, file_info, kTangoOpenFileForRead, FILE_OPEN)) == -1) {
 		goto bailout;
 	}
 
@@ -193,6 +206,24 @@ int tango_read_file(tango_connection_t *connection, tango_file_info_t *file_info
     
     operation_result = read_bytes;
 
+    int close_result = _tango_Close(connection, file_info);
+    
+bailout:
+	return operation_result;
+}
+
+int tango_write_file(tango_connection_t *connection, tango_file_info_t *file_info, unsigned int offset, unsigned int bytes, const unsigned char *buffer) {
+	int operation_result = -1;
+	
+	int result;
+	if ((operation_result = _tango_NT_Create(connection, file_info, kTangoOpenFileForWrite, FILE_OVERWRITE_IF)) == -1) {
+		goto bailout;
+	}
+    
+	int written_bytes = _tango_WRITE(connection, file_info, buffer, bytes, offset);
+    
+    operation_result = written_bytes;
+    
     int close_result = _tango_Close(connection, file_info);
     
 bailout:

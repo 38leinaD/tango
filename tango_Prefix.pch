@@ -7,4 +7,3 @@
     #import <UIKit/UIKit.h>
 #endif
 
-#define VERY_VERBOSE 1

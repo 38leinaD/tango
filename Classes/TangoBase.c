@@ -101,8 +101,6 @@ void _tango_smb_setDataSize(tango_smb_t *smb, size_t size) {
 #define debug(...)   fprintf(stderr, __VA_ARGS__)
 #define error(...)   fprintf(stderr, __VA_ARGS__)
 
-#define VERY_VERBOSE 1
-
 void _tango_print_bytes(const unsigned char *buffer, size_t length) {	
 	if (length == 0) {
 		printf("Zero Bytes\n");
@@ -472,7 +470,7 @@ int _tango_evaluate_response_header(tango_connection_t *connection, tango_smb_t 
 	
 	if (_tango_smb_get_NT_STATUS_Level(smb) != SUCCESS) {
 		_tango_set_error(connection, kTangoErrorSMBError, "Response invalid");
-		error("_tango_evaluate_response_header(): NT_STATUS Level is not SUCCESS.\n");
+		error("_tango_evaluate_response_header(): NT_STATUS Level is %04x with value %04x.\n", _tango_smb_get_NT_STATUS_Level(smb), _tango_smb_get_NT_STATUS_Error(smb));
 		return 0;
 	}
 	

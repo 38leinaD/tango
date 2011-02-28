@@ -11,7 +11,7 @@
 
 #include "TangoBase.h"
 
-int _tango_NT_Create(tango_connection_t *connection, tango_file_info_t *file_info, unsigned int share_access, unsigned int create_disposition) {
+int _tango_NT_Create(tango_connection_t *connection, tango_file_info_t *file_info, tango_open_t open_type, unsigned int create_disposition) {
 	
 	int operation_successful = -1;
 	
@@ -52,7 +52,12 @@ int _tango_NT_Create(tango_connection_t *connection, tango_file_info_t *file_inf
 	parameters_offset+=4;
 	
 	// DesiredAccess
-	*((unsigned int *)(parameters_ptr + parameters_offset)) = 0x00020001; // READ_CONTROL - last bit must be 1; no idea why...
+    // See http://msdn.microsoft.com/en-us/library/cc230294(v=prot.10).aspx
+    unsigned int access = 0x20000;
+    if (open_type & kTangoOpenFileForRead) access |= 0x01;
+    if (open_type & kTangoOpenFileForWrite) access |= 0x02;
+
+	*((unsigned int *)(parameters_ptr + parameters_offset)) = access;
 	parameters_offset+=4;
 	
 	// AllocationSize
@@ -67,6 +72,10 @@ int _tango_NT_Create(tango_connection_t *connection, tango_file_info_t *file_inf
 	parameters_offset+=4;
 	
 	// ShareAccess
+    unsigned int share_access = 0x00;
+    if (open_type & kTangoOpenFileForRead) share_access |= FILE_SHARE_READ;
+    if (open_type & kTangoOpenFileForWrite) share_access |= FILE_NO_SHARE;
+    
 	*((unsigned int *)(parameters_ptr + parameters_offset)) = share_access;
 	parameters_offset+=4;
 	
@@ -79,7 +88,7 @@ int _tango_NT_Create(tango_connection_t *connection, tango_file_info_t *file_inf
 	parameters_offset+=4;
 	
 	// ImpersonationLevel
-	*((unsigned int *)(parameters_ptr + parameters_offset)) = 0x00;
+	*((unsigned int *)(parameters_ptr + parameters_offset)) = 0x02; // SECURITY_IMPERSONATION
 	parameters_offset+=4;
 
 	// SecurityFlags
