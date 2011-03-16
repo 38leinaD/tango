@@ -29,10 +29,16 @@
 
 #pragma mark Session-Handling
 
-static struct in_addr
-addressForHost(const char* hn)
+/**
+ * Conversion/lookup of host-name and transaltion to ip-address
+ * 
+ * @param hn Hostname
+ *
+ * @return ip-address
+ */
+static struct in_addr address_for_host(const char* hn)
 {
-    struct hostent          *hostinfo;
+    struct hostent *hostinfo;
     struct in_addr inaddr;
     inaddr.s_addr = inet_addr(hn);
     
@@ -89,8 +95,8 @@ tango_connection_t *tango_create(const char *share, const char* username, const 
 	assert(strlen(begin_ptr) < 64 && "Hostname longer than 64 bytes");
 	strncpy(hostname, begin_ptr, end_ptr - begin_ptr);
 	hostname[end_ptr - begin_ptr] = '\0';
-    	sock_addr.sin_addr = addressForHost(hostname);
-	int sin_addr_set = sock_addr.sin_addr.s_addr != INADDR_NONE;//inet_pton(AF_INET, hostname, &(sock_addr.sin_addr));
+    sock_addr.sin_addr = address_for_host(hostname);
+	int sin_addr_set = sock_addr.sin_addr.s_addr != INADDR_NONE;
 	
 	if (!sin_addr_set) {
 		_tango_set_error(tango_connection_ptr, kTangoErrorParameterInvalid, "tango_create(): Invalid share.\n");
