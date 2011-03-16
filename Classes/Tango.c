@@ -21,12 +21,33 @@
 #include "tango_Write.h"
 #include "Tango_NT_Create.h"
 #include "Tango_Close.h"
+#include <netdb.h>
 
 #pragma mark -
 #pragma mark - Public API -
 
 
 #pragma mark Session-Handling
+
+static struct in_addr
+addressForHost(const char* hn)
+{
+    struct hostent          *hostinfo;
+    struct in_addr inaddr;
+    inaddr.s_addr = inet_addr(hn);
+    
+    if(INADDR_NONE == inaddr.s_addr) {
+        hostinfo = gethostbyname(hn);
+        if(NULL == hostinfo) {
+            inaddr.s_addr = INADDR_NONE;
+            return inaddr;
+        }
+        
+        inaddr.s_addr = *((in_addr_t *)hostinfo->h_addr_list[0]);
+    }
+    
+    return inaddr;
+}
 
 tango_connection_t *tango_create(const char *share, const char* username, const char *password) {
 	static unsigned short next_mid = 0;
@@ -68,7 +89,8 @@ tango_connection_t *tango_create(const char *share, const char* username, const 
 	assert(strlen(begin_ptr) < 64 && "Hostname longer than 64 bytes");
 	strncpy(hostname, begin_ptr, end_ptr - begin_ptr);
 	hostname[end_ptr - begin_ptr] = '\0';
-	int sin_addr_set = inet_pton(AF_INET, hostname, &(sock_addr.sin_addr));
+    	sock_addr.sin_addr = addressForHost(hostname);
+	int sin_addr_set = sock_addr.sin_addr.s_addr != INADDR_NONE;//inet_pton(AF_INET, hostname, &(sock_addr.sin_addr));
 	
 	if (!sin_addr_set) {
 		_tango_set_error(tango_connection_ptr, kTangoErrorParameterInvalid, "tango_create(): Invalid share.\n");
@@ -88,7 +110,7 @@ tango_connection_t *tango_create(const char *share, const char* username, const 
 	else {
 		// Format: \\hostname\share
 		slash_ptr = strchr(share + 2, '\\');
-		strcpy(tango_connection_ptr->share, share);
+		strcpy(tango_connection_ptr->share, slash_ptr+1);
 	}
 
 	// Configure port and connection-type
