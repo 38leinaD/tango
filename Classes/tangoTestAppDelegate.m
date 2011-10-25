@@ -29,7 +29,7 @@
 	*/
 	
 	
-	tango_connection_t *connection = tango_create("\\\\172.16.116.129\\folder", "Administrator", "wn");
+	tango_connection_t *connection = tango_create("\\\\192.168.2.254\\media", "kurt", "z47copa");
     //tango_connection_t *connection = tango_create("\\\\192.168.1.3\\folder", "Administrator", "wn");
 
 	tango_connect(connection);
