@@ -25,9 +25,9 @@
 		_password = [password copy];
 		_share = [share copy];
 		
-		_connection = tango_create([share cStringUsingEncoding:NSUnicodeStringEncoding],
-                                   [username cStringUsingEncoding:NSUnicodeStringEncoding],
-                                   [password cStringUsingEncoding:NSUnicodeStringEncoding]);
+		_connection = tango_create([share UTF8String],
+                                   [username UTF8String],
+                                   [password UTF8String]);
 	}
 	return self;
 }
@@ -94,8 +94,7 @@
 }
 
 - (NSString *)errorMessage {
-	return [NSString stringWithCString:tango_error_message(_connection)
-                              encoding:NSUnicodeStringEncoding];
+	return [NSString stringWithUTF8String:tango_error_message(_connection)];
 }
 
 
